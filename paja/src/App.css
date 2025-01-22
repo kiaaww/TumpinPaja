@@ -1,0 +1,12 @@
+body, html, #root, .App {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1; /* Pushes the footer to the bottom */
+  padding: 2rem;
+}
