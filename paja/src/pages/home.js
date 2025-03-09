@@ -1,6 +1,7 @@
 import React from "react"
 import '../styles/home.css'
 import map from '../assets/map-from-top.png'
+import mainpicture from '../assets/mainPicture.png'
 
 const Home = () => {
     return (
@@ -10,7 +11,12 @@ const Home = () => {
             </section>
 
             <section className="content">
-                <p>Tähän kuvia/sisältöä</p>
+                <div className="image-container">
+                    <img src={mainpicture} alt="MainPicture" />
+                    <div className="overlay">
+                        <h2>Tähän tekstiä</h2>
+                    </div>
+                </div>
             </section>
 
             <section className="map-section">
